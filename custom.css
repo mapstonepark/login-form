@@ -29,7 +29,8 @@ body{
 }
 
 
-h1{
+h1,
+h3{
     font-family: var(--fancy-font);
 }
 
@@ -45,6 +46,17 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.find-out{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.block{
+    color: rgb(230, 57, 70);
 }
 
 .pop-color > h1{
