@@ -7,17 +7,7 @@ body{
     font-family: var(--primary-font);
 }
 
-
-ul{
-    display:flex;
- 
-}
-
-ul > * {
-    width: 15%;
-    list-style-type: none;
-}
-
+/*       Header and Navigation Styling */
 .stamp{
     flex: 2;
 }
@@ -33,6 +23,8 @@ ul > * {
 
 .main-container{
     display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
     
 }
 
@@ -66,7 +58,7 @@ form{
 }
 
 #submit{
-    background-color: rgb(230, 57, 70);;
+    background-color: rgb(230, 57, 70);
     color: white;
 }
 
@@ -76,4 +68,44 @@ select,
 textarea {
   font-family: inherit;
   font-size: 1.2rem;
+}
+
+/*  Hamburger Styling */
+
+.hidden{
+    display: none;
+}
+
+.head{
+    display: flex;
+    padding: .5rem 1rem;
+    height: 5vh;
+}
+
+.head > *{
+    width: 50%;
+}
+
+#menu{
+    width: 100vw;
+    height: 94vh;
+    margin-top: 1vh;;
+    padding: 2rem;
+    list-style-type: none;
+    background-color: rgb(230, 57, 70);
+    color: white;
+    line-height: 3.3rem;
+}
+
+a{
+    color: rgb(241, 250, 238);
+    text-decoration: dotted;
+}
+
+a:hover{
+    color: rgb(29, 53, 87)
+}
+
+a:visted{
+    color: rgb(168, 218, 220)
 }
