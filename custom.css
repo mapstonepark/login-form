@@ -1,0 +1,59 @@
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --fancy-font: 'Playfair Display', serif;
+}
+
+body{
+    font-family: var(--primary-font);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+h1{
+    font-family: var(--fancy-font);
+}
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-color{
+    color: rgb(230, 57, 70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-color > h1{
+    font-weight: bold;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#submit{
+    background-color: rgb(230, 57, 70);;
+    color: white;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 1.2rem;
+}
