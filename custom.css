@@ -34,6 +34,9 @@ h3{
     font-family: var(--fancy-font);
 }
 
+p{
+    padding: 1.2rem;
+}
 
 .main-content{
     display: flex;
