@@ -7,6 +7,21 @@ body{
     font-family: var(--primary-font);
 }
 
+
+ul{
+    display:flex;
+ 
+}
+
+ul > * {
+    width: 15%;
+    list-style-type: none;
+}
+
+.stamp{
+    flex: 2;
+}
+
 .wrapper{
     display: flex;
     justify-content: center;
@@ -15,6 +30,11 @@ body{
     height: 100vh;
 }
 
+
+.main-container{
+    display: flex;
+    
+}
 
 
 h1{
